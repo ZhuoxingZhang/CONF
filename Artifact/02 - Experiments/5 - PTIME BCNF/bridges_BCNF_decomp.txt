@@ -1,0 +1,874 @@
+decomp cost time : 26.0 ms...
+lossless join decompsitions into BCNF as follows : 
+
+count | 0
+[0, 3]
+FD [leftHand=[0], rightHand=[3]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 1
+[1, 2]
+FD [leftHand=[2], rightHand=[1]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 2
+[0, 2]
+FD [leftHand=[0], rightHand=[2]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 3
+[0, 4]
+FD [leftHand=[0], rightHand=[4]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 4
+[0, 5]
+FD [leftHand=[0], rightHand=[5]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 5
+[0, 6]
+FD [leftHand=[0], rightHand=[6]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 6
+[0, 7]
+FD [leftHand=[0], rightHand=[7]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 7
+[0, 8]
+FD [leftHand=[0], rightHand=[8]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 8
+[0, 9]
+FD [leftHand=[0], rightHand=[9]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 9
+[0, 10]
+FD [leftHand=[0], rightHand=[10]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 10
+[0, 11]
+FD [leftHand=[0], rightHand=[11]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+count | 11
+[0, 12]
+FD [leftHand=[0], rightHand=[12]]
+preserved FD is Key for sub-schema : true
+
+##################
+
+distributions : 
+[[1 : 12]]
+
+*******************
+
+all eliminated FDs as follows £º 
+
+count | 0
+FD [leftHand=[0], rightHand=[1]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 1
+FD [leftHand=[1, 3, 4], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 2
+FD [leftHand=[1, 3, 4, 7, 10], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 3
+FD [leftHand=[1, 3, 4, 8, 10], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 4
+FD [leftHand=[1, 3, 6, 8, 12], rightHand=[10]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 5
+FD [leftHand=[1, 3, 7, 8, 10], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 6
+FD [leftHand=[1, 3, 7, 10, 12], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 7
+FD [leftHand=[1, 3, 8, 10, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 8
+FD [leftHand=[1, 3, 8, 11], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 9
+FD [leftHand=[1, 3, 9, 12], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 10
+FD [leftHand=[1, 3, 11], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 11
+FD [leftHand=[1, 3, 11, 12], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 12
+FD [leftHand=[1, 4, 5, 6, 7, 8], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 13
+FD [leftHand=[1, 4, 5, 6, 7, 10], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 14
+FD [leftHand=[1, 4, 5, 6, 8, 9], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 15
+FD [leftHand=[1, 4, 5, 6, 9], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 16
+FD [leftHand=[1, 4, 5, 6, 10, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 17
+FD [leftHand=[1, 4, 5, 7, 8, 10], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 18
+FD [leftHand=[1, 4, 5, 7, 10], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 19
+FD [leftHand=[1, 4, 5, 8, 9], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 20
+FD [leftHand=[1, 4, 5, 8, 10, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 21
+FD [leftHand=[1, 4, 5, 8, 11], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 22
+FD [leftHand=[1, 4, 5, 9], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 23
+FD [leftHand=[1, 4, 5, 9, 10], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 24
+FD [leftHand=[1, 5, 6, 7, 8, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 25
+FD [leftHand=[1, 5, 6, 8, 9, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 26
+FD [leftHand=[1, 5, 6, 8, 11], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 27
+FD [leftHand=[1, 5, 8, 10, 12], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 28
+FD [leftHand=[1, 5, 8, 11, 12], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 29
+FD [leftHand=[1, 5, 9, 11], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 30
+FD [leftHand=[1, 5, 10, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 31
+FD [leftHand=[2, 3], rightHand=[0]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 32
+FD [leftHand=[2, 3], rightHand=[4]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 33
+FD [leftHand=[2, 3], rightHand=[5]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 34
+FD [leftHand=[2, 3], rightHand=[6]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 35
+FD [leftHand=[2, 3], rightHand=[7]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 36
+FD [leftHand=[2, 3], rightHand=[8]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 37
+FD [leftHand=[2, 3], rightHand=[9]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 38
+FD [leftHand=[2, 3], rightHand=[10]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 39
+FD [leftHand=[2, 3], rightHand=[11]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 40
+FD [leftHand=[2, 3], rightHand=[12]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 41
+FD [leftHand=[2, 4, 5, 7], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 42
+FD [leftHand=[2, 4, 5, 7], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 43
+FD [leftHand=[2, 4, 5, 7, 8], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 44
+FD [leftHand=[2, 4, 5, 7, 8], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 45
+FD [leftHand=[2, 4, 5, 8, 9], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 46
+FD [leftHand=[2, 4, 5, 8, 10], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 47
+FD [leftHand=[2, 4, 5, 8, 10], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 48
+FD [leftHand=[2, 4, 5, 8, 10], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 49
+FD [leftHand=[2, 4, 5, 8, 10], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 50
+FD [leftHand=[2, 4, 5, 8, 10], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 51
+FD [leftHand=[2, 4, 5, 8, 11], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 52
+FD [leftHand=[2, 4, 5, 8, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 53
+FD [leftHand=[2, 4, 5, 11], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 54
+FD [leftHand=[2, 4, 5, 12], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 55
+FD [leftHand=[2, 4, 5, 12], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 56
+FD [leftHand=[2, 4, 5, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 57
+FD [leftHand=[2, 5, 6, 7], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 58
+FD [leftHand=[2, 5, 6, 8], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 59
+FD [leftHand=[2, 5, 6, 8], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 60
+FD [leftHand=[2, 5, 6, 8], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 61
+FD [leftHand=[2, 5, 6, 8], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 62
+FD [leftHand=[2, 5, 6, 8], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 63
+FD [leftHand=[2, 5, 6, 9], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 64
+FD [leftHand=[2, 5, 6, 10], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 65
+FD [leftHand=[2, 5, 6, 11], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 66
+FD [leftHand=[2, 5, 6, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 67
+FD [leftHand=[2, 5, 7, 8], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 68
+FD [leftHand=[2, 5, 7, 8, 10], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 69
+FD [leftHand=[2, 5, 7, 10], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 70
+FD [leftHand=[2, 5, 7, 10], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 71
+FD [leftHand=[2, 5, 8, 9], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 72
+FD [leftHand=[2, 5, 8, 10, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 73
+FD [leftHand=[2, 5, 8, 12], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 74
+FD [leftHand=[2, 5, 8, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 75
+FD [leftHand=[2, 5, 9], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 76
+FD [leftHand=[2, 5, 9], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 77
+FD [leftHand=[2, 5, 10, 11], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 78
+FD [leftHand=[2, 5, 10, 12], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 79
+FD [leftHand=[2, 5, 10, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 80
+FD [leftHand=[2, 5, 11], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 81
+FD [leftHand=[2, 5, 11, 12], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 82
+FD [leftHand=[2, 5, 12], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 83
+FD [leftHand=[2, 6, 7, 8], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 84
+FD [leftHand=[2, 6, 7, 10], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 85
+FD [leftHand=[2, 6, 8, 12], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 86
+FD [leftHand=[2, 6, 9], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 87
+FD [leftHand=[2, 6, 9], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 88
+FD [leftHand=[2, 6, 10, 12], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 89
+FD [leftHand=[2, 6, 11], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 90
+FD [leftHand=[2, 6, 11, 12], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 91
+FD [leftHand=[2, 6, 11, 12], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 92
+FD [leftHand=[2, 7, 11, 12], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 93
+FD [leftHand=[2, 9, 12], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 94
+FD [leftHand=[3, 4, 5], rightHand=[0]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 95
+FD [leftHand=[3, 4, 5], rightHand=[2]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 96
+FD [leftHand=[3, 4, 5], rightHand=[11]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 97
+FD [leftHand=[3, 4, 5], rightHand=[12]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 98
+FD [leftHand=[3, 4, 10], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 99
+FD [leftHand=[3, 5], rightHand=[1]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 100
+FD [leftHand=[3, 5], rightHand=[6]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 101
+FD [leftHand=[3, 5], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 102
+FD [leftHand=[3, 5], rightHand=[8]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 103
+FD [leftHand=[3, 5], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 104
+FD [leftHand=[3, 5], rightHand=[10]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 105
+FD [leftHand=[3, 5, 11], rightHand=[0]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 106
+FD [leftHand=[3, 5, 11], rightHand=[2]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 107
+FD [leftHand=[3, 5, 11], rightHand=[4]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 108
+FD [leftHand=[3, 5, 11], rightHand=[12]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 109
+FD [leftHand=[3, 5, 12], rightHand=[0]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 110
+FD [leftHand=[3, 5, 12], rightHand=[2]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 111
+FD [leftHand=[3, 5, 12], rightHand=[4]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 112
+FD [leftHand=[3, 5, 12], rightHand=[11]]
+eliminated FD is Key for schema : true
+
+##################
+
+count | 113
+FD [leftHand=[3, 6, 7, 11], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 114
+FD [leftHand=[3, 6, 8, 11], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 115
+FD [leftHand=[3, 6, 9, 12], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 116
+FD [leftHand=[3, 6, 11, 12], rightHand=[4]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 117
+FD [leftHand=[3, 10, 11], rightHand=[9]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 118
+FD [leftHand=[3, 10, 12], rightHand=[8]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 119
+FD [leftHand=[4, 5, 6, 7, 8, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 120
+FD [leftHand=[4, 5, 6, 7, 10, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 121
+FD [leftHand=[4, 5, 6, 8, 9, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 122
+FD [leftHand=[4, 5, 6, 9], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 123
+FD [leftHand=[4, 5, 6, 9, 10, 11], rightHand=[12]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 124
+FD [leftHand=[4, 5, 7, 8, 10, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 125
+FD [leftHand=[4, 5, 8, 9, 10, 12], rightHand=[11]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 126
+FD [leftHand=[5, 6, 8, 11, 12], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 127
+FD [leftHand=[5, 6, 9, 11], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 128
+FD [leftHand=[5, 8, 10, 11, 12], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
+count | 129
+FD [leftHand=[5, 9, 10], rightHand=[7]]
+eliminated FD is Key for schema : false
+
+##################
+
