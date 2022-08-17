@@ -1,0 +1,38 @@
+PK: tpch.customer[c_custkey]
+tpch.customer[c_name]
+tpch.customer[c_address]
+tpch.customer[c_mktsegment,c_phone]
+tpch.customer[c_nationkey,c_phone,c_comment]
+
+PK: tpch.lineitem[l_orderkey,l_linenumber]
+tpch.lineitem[l_orderkey,l_partkey,l_comment]
+tpch.lineitem[l_shipdate,l_orderkey,l_suppkey,l_comment]
+tpch.lineitem[l_orderkey,l_suppkey,l_quantity,l_comment]
+tpch.lineitem[l_orderkey,l_suppkey,l_comment]
+tpch.lineitem[l_orderkey,l_suppkey,l_receiptdate,l_comment]
+
+PK: tpch.nation[n_nationkey]
+tpch.nation[n_name]
+tpch.nation[n_comment]
+
+PK: tpch.orders[o_orderkey]
+tpch.orders[o_orderdate,o_custkey,o_clerk]
+tpch.orders[o_orderdate,o_clerk,o_comment]
+tpch.orders[o_custkey,o_clerk,o_comment]
+tpch.orders[o_orderdate,o_custkey,o_comment]
+
+PK: tpch.part[p_partkey]
+tpch.part[p_name,p_mfgr]
+
+PK: tpch.partsupp[ps_partkey,ps_suppkey]
+tpch.partsupp[ps_supplycost,ps_comment]
+
+PK: tpch.region[r_regionkey]
+tpch.region[r_name]
+tpch.region[r_comment]
+
+PK: tpch.supplier[s_suppkey]
+tpch.supplier[s_name]
+tpch.supplier[s_address]
+tpch.supplier[s_phone]
+tpch.supplier[s_nationkey,s_comment]
